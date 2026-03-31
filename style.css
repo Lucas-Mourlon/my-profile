@@ -1,0 +1,116 @@
+body {
+    background-color: grey;
+    color: grey;
+    font-family: Courrier;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+h1, h2, h3 {
+    font-family: serif; cursive;
+    color: blue;
+    font-size: 48px;
+}
+
+h1 {
+    font-size: 77px;
+    letter-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.4s ease;
+}
+
+a:hover {
+    color: blue;
+}
+
+p {
+    text-justify: justify;
+}
+
+img {
+    width: 290px;
+    height: auto;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+}
+
+/* Media Queries pour la responsivité */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* Custom design with class */
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 7px;
+    margin: 20px 0px;
+    text-align: center;
+    color: grey;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 290px;
+    height: auto;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: darkblue;
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color: skyblue;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.btn-pink {
+    background-color: darkblue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+
+.btn-pink:hover {
+    background-color: skyblue;
+}
